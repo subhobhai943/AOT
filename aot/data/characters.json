@@ -1,0 +1,50 @@
+[
+  {
+    "id": "char-001",
+    "full_name": "Eren Yeager",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 9,
+      "agility": 8,
+      "intelligence": 7,
+      "leadership": 8
+    }
+  },
+  {
+    "id": "char-002",
+    "full_name": "Mikasa Ackerman",
+    "affiliation": "Scout Regiment",
+    "status": "Alive",
+    "stats": {
+      "strength": 10,
+      "agility": 10,
+      "intelligence": 8,
+      "leadership": 7
+    }
+  },
+  {
+    "id": "char-003",
+    "full_name": "Armin Arlert",
+    "affiliation": "Scout Regiment",
+    "status": "Alive",
+    "stats": {
+      "strength": 5,
+      "agility": 6,
+      "intelligence": 10,
+      "leadership": 9
+    }
+  },
+  {
+    "id": "char-004",
+    "full_name": "Levi Ackerman",
+    "affiliation": "Scout Regiment",
+    "status": "Alive",
+    "stats": {
+      "strength": 10,
+      "agility": 10,
+      "intelligence": 9,
+      "leadership": 9
+    }
+  }
+]
