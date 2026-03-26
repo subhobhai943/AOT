@@ -23,9 +23,16 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Topic :: Software Development :: Libraries",
 ]
+dependencies = [
+  "rich>=13.0.0",
+  "psutil>=5.9.0",
+]
+
+[project.scripts]
+aot = "aot.cli.main:app"
 
 [tool.setuptools]
-packages = ["aot", "aot.core"]
+packages = ["aot", "aot.cli", "aot.core"]
 
 [tool.setuptools.package-data]
 "aot" = ["data/*.json"]
