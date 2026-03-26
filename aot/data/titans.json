@@ -1,0 +1,32 @@
+[
+  {
+    "id": "titan-001",
+    "name": "Attack Titan",
+    "height_m": 15,
+    "current_inheritor": "Eren Yeager",
+    "special_abilities": [
+      "future_memory_access",
+      "high_combat_adaptability"
+    ]
+  },
+  {
+    "id": "titan-002",
+    "name": "Colossal Titan",
+    "height_m": 60,
+    "current_inheritor": "Armin Arlert",
+    "special_abilities": [
+      "massive_size",
+      "steam_emission"
+    ]
+  },
+  {
+    "id": "titan-003",
+    "name": "Armored Titan",
+    "height_m": 15,
+    "current_inheritor": "Reiner Braun",
+    "special_abilities": [
+      "hardened_armor",
+      "high_endurance"
+    ]
+  }
+]
