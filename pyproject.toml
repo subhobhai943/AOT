@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aot"
+version = "0.1.0"
+description = "A comprehensive Python library for the Attack on Titan universe. Features a complete offline data API, a physics engine for game development, and productivity-focused CLI utilities."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "AoT Maintainers" }
+]
+keywords = ["attack on titan", "anime", "offline database", "game physics", "cli"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+  "rich>=13.0.0",
+  "psutil>=5.9.0",
+]
+
+[project.scripts]
+aot = "aot.cli.main:app"
+
+[tool.setuptools]
+packages = ["aot", "aot.cli", "aot.core", "aot.engine"]
+
+[tool.setuptools.package-data]
+"aot" = ["data/*.json"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
