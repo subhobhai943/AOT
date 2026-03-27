@@ -17,9 +17,9 @@ class CombatSimulator:
     def _character_combat_score(character: dict) -> float:
         stats = character.get("stats", {})
 
-        wits = float(stats.get("wits", stats.get("intelligence", 5)))
-        initiative = float(stats.get("initiative", stats.get("agility", 5)))
-        combat = float(stats.get("combat", stats.get("strength", 5)))
+        wits = float(stats.get("intelligence", 5))
+        initiative = float(stats.get("agility", 5))
+        combat = float(stats.get("strength", 5))
 
         return (wits * 0.35) + (initiative * 0.30) + (combat * 0.35)
 
