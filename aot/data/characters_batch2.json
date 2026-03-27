@@ -1,0 +1,518 @@
+[
+  {
+    "id": "char-030",
+    "full_name": "Hannes",
+    "affiliation": "Garrison Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 7,
+      "agility": 6,
+      "intelligence": 6,
+      "leadership": 6
+    }
+  },
+  {
+    "id": "char-031",
+    "full_name": "Dot Pyxis",
+    "affiliation": "Garrison Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 5,
+      "agility": 4,
+      "intelligence": 9,
+      "leadership": 9
+    }
+  },
+  {
+    "id": "char-032",
+    "full_name": "Rico Brzenska",
+    "affiliation": "Garrison Regiment",
+    "status": "Unknown",
+    "stats": {
+      "strength": 7,
+      "agility": 7,
+      "intelligence": 7,
+      "leadership": 7
+    }
+  },
+  {
+    "id": "char-033",
+    "full_name": "Ian Dietrich",
+    "affiliation": "Garrison Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 7,
+      "agility": 7,
+      "intelligence": 6,
+      "leadership": 7
+    }
+  },
+  {
+    "id": "char-034",
+    "full_name": "Mitabi Jarnach",
+    "affiliation": "Garrison Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 6,
+      "agility": 6,
+      "intelligence": 6,
+      "leadership": 6
+    }
+  },
+  {
+    "id": "char-035",
+    "full_name": "Nile Dawk",
+    "affiliation": "Military Police Brigade",
+    "status": "Deceased",
+    "stats": {
+      "strength": 6,
+      "agility": 5,
+      "intelligence": 8,
+      "leadership": 8
+    }
+  },
+  {
+    "id": "char-036",
+    "full_name": "Marlowe Freudenberg",
+    "affiliation": "Military Police Brigade",
+    "status": "Deceased",
+    "stats": {
+      "strength": 7,
+      "agility": 6,
+      "intelligence": 7,
+      "leadership": 7
+    }
+  },
+  {
+    "id": "char-037",
+    "full_name": "Hitch Dreyse",
+    "affiliation": "Military Police Brigade",
+    "status": "Alive",
+    "stats": {
+      "strength": 5,
+      "agility": 6,
+      "intelligence": 7,
+      "leadership": 5
+    }
+  },
+  {
+    "id": "char-038",
+    "full_name": "Uri Reiss",
+    "affiliation": "Reiss Royal Family",
+    "status": "Deceased",
+    "stats": {
+      "strength": 6,
+      "agility": 6,
+      "intelligence": 9,
+      "leadership": 9
+    }
+  },
+  {
+    "id": "char-039",
+    "full_name": "Frieda Reiss",
+    "affiliation": "Reiss Royal Family",
+    "status": "Deceased",
+    "stats": {
+      "strength": 7,
+      "agility": 7,
+      "intelligence": 8,
+      "leadership": 7
+    }
+  },
+  {
+    "id": "char-040",
+    "full_name": "Karl Fritz",
+    "affiliation": "Eldian Royal Line",
+    "status": "Deceased",
+    "stats": {
+      "strength": 4,
+      "agility": 3,
+      "intelligence": 9,
+      "leadership": 8
+    }
+  },
+  {
+    "id": "char-041",
+    "full_name": "Theo Magath",
+    "affiliation": "Marleyan Military",
+    "status": "Deceased",
+    "stats": {
+      "strength": 6,
+      "agility": 5,
+      "intelligence": 9,
+      "leadership": 9
+    }
+  },
+  {
+    "id": "char-042",
+    "full_name": "Colt Grice",
+    "affiliation": "Marley Warrior Unit",
+    "status": "Deceased",
+    "stats": {
+      "strength": 7,
+      "agility": 7,
+      "intelligence": 7,
+      "leadership": 7
+    }
+  },
+  {
+    "id": "char-043",
+    "full_name": "Udo",
+    "affiliation": "Marley Warrior Candidate",
+    "status": "Deceased",
+    "stats": {
+      "strength": 4,
+      "agility": 5,
+      "intelligence": 7,
+      "leadership": 4
+    }
+  },
+  {
+    "id": "char-044",
+    "full_name": "Zofia",
+    "affiliation": "Marley Warrior Candidate",
+    "status": "Deceased",
+    "stats": {
+      "strength": 4,
+      "agility": 5,
+      "intelligence": 6,
+      "leadership": 4
+    }
+  },
+  {
+    "id": "char-045",
+    "full_name": "Tom Ksaver",
+    "affiliation": "Marley Warrior Unit",
+    "status": "Deceased",
+    "stats": {
+      "strength": 3,
+      "agility": 3,
+      "intelligence": 10,
+      "leadership": 6
+    }
+  },
+  {
+    "id": "char-046",
+    "full_name": "Marcel Galliard",
+    "affiliation": "Marley Warrior Unit",
+    "status": "Deceased",
+    "stats": {
+      "strength": 8,
+      "agility": 8,
+      "intelligence": 7,
+      "leadership": 6
+    }
+  },
+  {
+    "id": "char-047",
+    "full_name": "Louise",
+    "affiliation": "Yeagerists",
+    "status": "Deceased",
+    "stats": {
+      "strength": 5,
+      "agility": 6,
+      "intelligence": 5,
+      "leadership": 4
+    }
+  },
+  {
+    "id": "char-048",
+    "full_name": "Surma",
+    "affiliation": "Yeagerists",
+    "status": "Alive",
+    "stats": {
+      "strength": 5,
+      "agility": 5,
+      "intelligence": 5,
+      "leadership": 4
+    }
+  },
+  {
+    "id": "char-049",
+    "full_name": "Carla Yeager",
+    "affiliation": "Shiganshina Civilian",
+    "status": "Deceased",
+    "stats": {
+      "strength": 3,
+      "agility": 3,
+      "intelligence": 6,
+      "leadership": 6
+    }
+  },
+  {
+    "id": "char-050",
+    "full_name": "Dina Fritz",
+    "affiliation": "Eldian Restorationists",
+    "status": "Deceased",
+    "stats": {
+      "strength": 6,
+      "agility": 5,
+      "intelligence": 7,
+      "leadership": 7
+    }
+  },
+  {
+    "id": "char-051",
+    "full_name": "Artur Braus",
+    "affiliation": "Ragako Civilian",
+    "status": "Alive",
+    "stats": {
+      "strength": 5,
+      "agility": 4,
+      "intelligence": 6,
+      "leadership": 7
+    }
+  },
+  {
+    "id": "char-052",
+    "full_name": "Niccolo",
+    "affiliation": "Marleyan Navy",
+    "status": "Alive",
+    "stats": {
+      "strength": 5,
+      "agility": 5,
+      "intelligence": 7,
+      "leadership": 5
+    }
+  },
+  {
+    "id": "char-053",
+    "full_name": "Kaya",
+    "affiliation": "Paradis Civilian",
+    "status": "Alive",
+    "stats": {
+      "strength": 4,
+      "agility": 5,
+      "intelligence": 6,
+      "leadership": 5
+    }
+  },
+  {
+    "id": "char-054",
+    "full_name": "Darius Zackly",
+    "affiliation": "Paradis Military High Command",
+    "status": "Deceased",
+    "stats": {
+      "strength": 4,
+      "agility": 3,
+      "intelligence": 8,
+      "leadership": 8
+    }
+  },
+  {
+    "id": "char-055",
+    "full_name": "Kitz Woermann",
+    "affiliation": "Garrison Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 5,
+      "agility": 4,
+      "intelligence": 5,
+      "leadership": 5
+    }
+  },
+  {
+    "id": "char-056",
+    "full_name": "Anka Rheinberger",
+    "affiliation": "Garrison Regiment",
+    "status": "Alive",
+    "stats": {
+      "strength": 5,
+      "agility": 5,
+      "intelligence": 7,
+      "leadership": 6
+    }
+  },
+  {
+    "id": "char-057",
+    "full_name": "Nac Tias",
+    "affiliation": "Garrison Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 5,
+      "agility": 5,
+      "intelligence": 5,
+      "leadership": 4
+    }
+  },
+  {
+    "id": "char-058",
+    "full_name": "Gelgar",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 6,
+      "agility": 5,
+      "intelligence": 5,
+      "leadership": 5
+    }
+  },
+  {
+    "id": "char-059",
+    "full_name": "Nanaba",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 7,
+      "agility": 7,
+      "intelligence": 6,
+      "leadership": 6
+    }
+  },
+  {
+    "id": "char-060",
+    "full_name": "Miche Zacharius",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 9,
+      "agility": 7,
+      "intelligence": 7,
+      "leadership": 7
+    }
+  },
+  {
+    "id": "char-061",
+    "full_name": "Moblit Berner",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 6,
+      "agility": 6,
+      "intelligence": 7,
+      "leadership": 6
+    }
+  },
+  {
+    "id": "char-062",
+    "full_name": "Petra Ral",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 7,
+      "agility": 8,
+      "intelligence": 6,
+      "leadership": 5
+    }
+  },
+  {
+    "id": "char-063",
+    "full_name": "Oluo Bozado",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 7,
+      "agility": 7,
+      "intelligence": 5,
+      "leadership": 5
+    }
+  },
+  {
+    "id": "char-064",
+    "full_name": "Eld Jinn",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 7,
+      "agility": 7,
+      "intelligence": 6,
+      "leadership": 6
+    }
+  },
+  {
+    "id": "char-065",
+    "full_name": "Gunther Schultz",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {
+      "strength": 6,
+      "agility": 7,
+      "intelligence": 5,
+      "leadership": 5
+    }
+  },
+  {
+    "id": "char-066",
+    "full_name": "Dimo Reeves",
+    "affiliation": "Reeves Company",
+    "status": "Deceased",
+    "stats": {
+      "strength": 4,
+      "agility": 3,
+      "intelligence": 7,
+      "leadership": 6
+    }
+  },
+  {
+    "id": "char-067",
+    "full_name": "Flegel Reeves",
+    "affiliation": "Reeves Company",
+    "status": "Alive",
+    "stats": {
+      "strength": 4,
+      "agility": 4,
+      "intelligence": 6,
+      "leadership": 6
+    }
+  },
+  {
+    "id": "char-068",
+    "full_name": "Kiyomi Azumabito",
+    "affiliation": "Hizuru Nation",
+    "status": "Alive",
+    "stats": {
+      "strength": 3,
+      "agility": 4,
+      "intelligence": 9,
+      "leadership": 8
+    }
+  },
+  {
+    "id": "char-069",
+    "full_name": "Willy Tybur",
+    "affiliation": "Tybur Family",
+    "status": "Deceased",
+    "stats": {
+      "strength": 3,
+      "agility": 3,
+      "intelligence": 9,
+      "leadership": 9
+    }
+  },
+  {
+    "id": "char-070",
+    "full_name": "Lara Tybur",
+    "affiliation": "Tybur Family",
+    "status": "Deceased",
+    "stats": {
+      "strength": 8,
+      "agility": 7,
+      "intelligence": 8,
+      "leadership": 6
+    }
+  },
+  {
+    "id": "char-071",
+    "full_name": "Koslow",
+    "affiliation": "Marleyan Public Security",
+    "status": "Deceased",
+    "stats": {
+      "strength": 4,
+      "agility": 4,
+      "intelligence": 6,
+      "leadership": 5
+    }
+  },
+  {
+    "id": "char-072",
+    "full_name": "Gross",
+    "affiliation": "Marleyan Public Security",
+    "status": "Deceased",
+    "stats": {
+      "strength": 5,
+      "agility": 4,
+      "intelligence": 5,
+      "leadership": 4
+    }
+  }
+]

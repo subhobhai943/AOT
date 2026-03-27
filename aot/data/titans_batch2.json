@@ -1,0 +1,122 @@
+[
+  {
+    "id": "titan-030",
+    "name": "Ymir Fritz's Founding Titan",
+    "height_m": 240,
+    "current_inheritor": "Ymir Fritz",
+    "special_abilities": [
+      "origin_of_all_titans",
+      "absolute_subject_control",
+      "primordial_regeneration"
+    ]
+  },
+  {
+    "id": "titan-031",
+    "name": "Frieda Reiss's Founding Titan",
+    "height_m": 13,
+    "current_inheritor": "Frieda Reiss",
+    "special_abilities": [
+      "memory_alteration",
+      "royal_blood_coordinate_access",
+      "limited_hardening"
+    ]
+  },
+  {
+    "id": "titan-032",
+    "name": "Lara Tybur's War Hammer Titan",
+    "height_m": 15,
+    "current_inheritor": "Lara Tybur",
+    "special_abilities": [
+      "crystal_weapon_forging",
+      "remote_tether_control",
+      "advanced_hardening"
+    ]
+  },
+  {
+    "id": "titan-033",
+    "name": "Tom Ksaver's Beast Titan",
+    "height_m": 17,
+    "current_inheritor": "Tom Ksaver",
+    "special_abilities": [
+      "beast_form_ram_traits",
+      "high_endurance",
+      "tactical_intellect_support"
+    ]
+  },
+  {
+    "id": "titan-034",
+    "name": "The Smiling Titan",
+    "height_m": 14,
+    "current_inheritor": "Dina Fritz",
+    "special_abilities": [
+      "abnormal_target_fixation",
+      "high_pursuit_instinct"
+    ]
+  },
+  {
+    "id": "titan-035",
+    "name": "The Talking Titan",
+    "height_m": 4,
+    "current_inheritor": "Unknown (Pure Titan)",
+    "special_abilities": [
+      "limited_speech",
+      "abnormal_behavior",
+      "memory_fragments"
+    ]
+  },
+  {
+    "id": "titan-036",
+    "name": "Rod Reiss's Massive Abnormal Titan",
+    "height_m": 120,
+    "current_inheritor": "Rod Reiss",
+    "special_abilities": [
+      "extreme_size",
+      "heat_emission",
+      "massive_crawl_mobility"
+    ]
+  },
+  {
+    "id": "titan-037",
+    "name": "Falco's Flying Jaw Titan",
+    "height_m": 5,
+    "current_inheritor": "Falco Grice",
+    "special_abilities": [
+      "aerial_mobility",
+      "hardened_jaw",
+      "rapid_dive_attack"
+    ]
+  },
+  {
+    "id": "titan-038",
+    "name": "Ymir's Jaw Titan",
+    "height_m": 5,
+    "current_inheritor": "Ymir",
+    "special_abilities": [
+      "extreme_agility",
+      "rapid_regeneration",
+      "claw_assault"
+    ]
+  },
+  {
+    "id": "titan-039",
+    "name": "Bertholdt's Colossal Titan",
+    "height_m": 60,
+    "current_inheritor": "Bertholdt Hoover",
+    "special_abilities": [
+      "nuclear_transformation",
+      "steam_blast_control",
+      "colossal_body_mass"
+    ]
+  },
+  {
+    "id": "titan-040",
+    "name": "Grisha's Attack Titan",
+    "height_m": 15,
+    "current_inheritor": "Grisha Yeager",
+    "special_abilities": [
+      "combat_adaptability",
+      "future_memory_glimpses",
+      "high_regeneration"
+    ]
+  }
+]

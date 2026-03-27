@@ -17,9 +17,9 @@ class CombatSimulator:
     def _character_combat_score(character: dict) -> float:
         stats = character.get("stats", {})
 
-        wits = float(stats.get("wits", stats.get("intelligence", 5)))
-        initiative = float(stats.get("initiative", stats.get("agility", 5)))
-        combat = float(stats.get("combat", stats.get("strength", 5)))
+        wits = float(stats.get("intelligence", 5))
+        initiative = float(stats.get("agility", 5))
+        combat = float(stats.get("strength", 5))
 
         return (wits * 0.35) + (initiative * 0.30) + (combat * 0.35)
 
@@ -39,7 +39,7 @@ class CombatSimulator:
         titan_score = self._titan_threat_score(titan)
 
         # logistic-like squashing into [0.05, 0.95]
-        raw_advantage = (scout_score - titan_score) / 12.0
+        raw_advantage = (scout_score - titan_score) / self.ADVANTAGE_SCALING_FACTOR
         win_probability = max(0.05, min(0.95, 0.5 + raw_advantage))
 
         roll = random.random()

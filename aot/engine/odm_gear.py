@@ -67,8 +67,8 @@ class ODMGear:
         """Strike a titan's nape, reducing blade durability by armor resistance."""
         if titan_armor_level < 0:
             raise ValueError("titan_armor_level must be >= 0")
-
-        wear = max(5, 10 + titan_armor_level * 4)
+        wear = max(self.MIN_WEAR, self.BASE_WEAR + titan_armor_level * self.ARMOR_WEAR_MULTIPLIER)
+        damage_dealt = max(self.MIN_DAMAGE, self.BASE_DAMAGE - titan_armor_level * self.ARMOR_DAMAGE_REDUCTION)
         damage_dealt = max(1, 40 - titan_armor_level * 3)
 
         remaining = self.blade_durability - wear
