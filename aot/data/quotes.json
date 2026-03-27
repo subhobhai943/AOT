@@ -1,0 +1,184 @@
+[
+  {
+    "id": "quote-001",
+    "character_name": "Eren Yeager",
+    "quote_text": "We survive by fighting; surrender means the end.",
+    "episode_reference": "Season 1, Episode 5",
+    "vibe_tags": ["motivational", "defiance", "battle"]
+  },
+  {
+    "id": "quote-002",
+    "character_name": "Armin Arlert",
+    "quote_text": "Big change always demands a painful sacrifice.",
+    "episode_reference": "Season 1, Episode 24",
+    "vibe_tags": ["philosophical", "tactical", "growth"]
+  },
+  {
+    "id": "quote-003",
+    "character_name": "Levi Ackerman",
+    "quote_text": "Choose, act, and carry your regret with discipline.",
+    "episode_reference": "Season 1, Episode 19",
+    "vibe_tags": ["stoic", "leadership", "hard_truth"]
+  },
+  {
+    "id": "quote-004",
+    "character_name": "Mikasa Ackerman",
+    "quote_text": "This world can be cruel, yet beauty still exists in it.",
+    "episode_reference": "Season 1, Episode 6",
+    "vibe_tags": ["melancholic", "philosophical", "hope"]
+  },
+  {
+    "id": "quote-005",
+    "character_name": "Erwin Smith",
+    "quote_text": "Advance anyway; meaning is born from those who press forward.",
+    "episode_reference": "Season 3, Episode 16",
+    "vibe_tags": ["epic", "leadership", "sacrifice"]
+  },
+  {
+    "id": "quote-006",
+    "character_name": "Hange Zoe",
+    "quote_text": "Understanding monsters starts when we stop pretending they are simple.",
+    "episode_reference": "Season 2, Episode 7",
+    "vibe_tags": ["curiosity", "scientific", "philosophical"]
+  },
+  {
+    "id": "quote-007",
+    "character_name": "Jean Kirstein",
+    "quote_text": "Courage is making the hard call when fear says run.",
+    "episode_reference": "Season 3, Episode 13",
+    "vibe_tags": ["growth", "tactical", "leadership"]
+  },
+  {
+    "id": "quote-008",
+    "character_name": "Sasha Blouse",
+    "quote_text": "Protect your people first; everything else is secondary.",
+    "episode_reference": "Season 2, Episode 2",
+    "vibe_tags": ["bravery", "heart", "protective"]
+  },
+  {
+    "id": "quote-009",
+    "character_name": "Connie Springer",
+    "quote_text": "We are soldiers now, so we keep moving no matter what.",
+    "episode_reference": "Season 2, Episode 8",
+    "vibe_tags": ["determination", "teamwork", "war"]
+  },
+  {
+    "id": "quote-010",
+    "character_name": "Historia Reiss",
+    "quote_text": "I will live as myself, not as the person others demand.",
+    "episode_reference": "Season 3, Episode 7",
+    "vibe_tags": ["identity", "empowerment", "resolve"]
+  },
+  {
+    "id": "quote-011",
+    "character_name": "Reiner Braun",
+    "quote_text": "Duty and guilt can tear a person into two selves.",
+    "episode_reference": "Season 2, Episode 6",
+    "vibe_tags": ["despair", "conflict", "psychological"]
+  },
+  {
+    "id": "quote-012",
+    "character_name": "Bertholdt Hoover",
+    "quote_text": "None of us are innocent; we just keep moving through the horror.",
+    "episode_reference": "Season 3, Episode 15",
+    "vibe_tags": ["fatalism", "war", "despair"]
+  },
+  {
+    "id": "quote-013",
+    "character_name": "Annie Leonhart",
+    "quote_text": "I am not kind; I simply decide who is worth saving.",
+    "episode_reference": "Season 1, Episode 23",
+    "vibe_tags": ["cold", "survival", "character_study"]
+  },
+  {
+    "id": "quote-014",
+    "character_name": "Zeke Yeager",
+    "quote_text": "People call it mercy when they can no longer endure hope.",
+    "episode_reference": "Season 4, Episode 15",
+    "vibe_tags": ["philosophical", "nihilism", "ideology"]
+  },
+  {
+    "id": "quote-015",
+    "character_name": "Pieck Finger",
+    "quote_text": "The best strategy is patience sharpened by perfect timing.",
+    "episode_reference": "Season 4, Episode 11",
+    "vibe_tags": ["tactical", "calm", "strategic"]
+  },
+  {
+    "id": "quote-016",
+    "character_name": "Porco Galliard",
+    "quote_text": "Pride can carry you, but it can also blind you.",
+    "episode_reference": "Season 4, Episode 19",
+    "vibe_tags": ["pride", "tragic", "reflection"]
+  },
+  {
+    "id": "quote-017",
+    "character_name": "Ymir",
+    "quote_text": "You only get one life, so claim it for yourself.",
+    "episode_reference": "Season 2, Episode 10",
+    "vibe_tags": ["freedom", "identity", "rebellious"]
+  },
+  {
+    "id": "quote-018",
+    "character_name": "Floch Forster",
+    "quote_text": "In chaos, people follow the loudest certainty.",
+    "episode_reference": "Season 4, Episode 13",
+    "vibe_tags": ["fanaticism", "political", "dark"]
+  },
+  {
+    "id": "quote-019",
+    "character_name": "Kenny Ackerman",
+    "quote_text": "Everyone chases something just to keep from breaking.",
+    "episode_reference": "Season 3, Episode 10",
+    "vibe_tags": ["philosophical", "cynical", "human_nature"]
+  },
+  {
+    "id": "quote-020",
+    "character_name": "Grisha Yeager",
+    "quote_text": "A parent's sins can become the child's burden for generations.",
+    "episode_reference": "Season 3, Episode 20",
+    "vibe_tags": ["legacy", "regret", "family"]
+  },
+  {
+    "id": "quote-021",
+    "character_name": "Falco Grice",
+    "quote_text": "Kindness in war is fragile, but that is why it matters.",
+    "episode_reference": "Season 4, Episode 3",
+    "vibe_tags": ["hope", "innocence", "war"]
+  },
+  {
+    "id": "quote-022",
+    "character_name": "Gabi Braun",
+    "quote_text": "Truth hurts most when it tears down what you were taught.",
+    "episode_reference": "Season 4, Episode 12",
+    "vibe_tags": ["growth", "identity", "conflict"]
+  },
+  {
+    "id": "quote-023",
+    "character_name": "Onyankopon",
+    "quote_text": "Different skies still belong to the same human race.",
+    "episode_reference": "Season 4, Episode 9",
+    "vibe_tags": ["humanity", "unity", "philosophical"]
+  },
+  {
+    "id": "quote-024",
+    "character_name": "Yelena",
+    "quote_text": "Devotion can look noble even when it serves destruction.",
+    "episode_reference": "Season 4, Episode 16",
+    "vibe_tags": ["fanaticism", "ideology", "despair"]
+  },
+  {
+    "id": "quote-025",
+    "character_name": "Levi Ackerman",
+    "quote_text": "Give your all now so your fallen comrades are not forgotten.",
+    "episode_reference": "Season 3, Episode 17",
+    "vibe_tags": ["motivational", "tribute", "leadership"]
+  },
+  {
+    "id": "quote-026",
+    "character_name": "Armin Arlert",
+    "quote_text": "Seeing the sea was proof that another world was possible.",
+    "episode_reference": "Season 3, Episode 22",
+    "vibe_tags": ["wonder", "hope", "dreams"]
+  }
+]

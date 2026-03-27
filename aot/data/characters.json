@@ -1,0 +1,170 @@
+[
+  {
+    "id": "char-001",
+    "full_name": "Eren Yeager",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {"strength": 9, "agility": 8, "intelligence": 7, "leadership": 8}
+  },
+  {
+    "id": "char-002",
+    "full_name": "Mikasa Ackerman",
+    "affiliation": "Scout Regiment",
+    "status": "Alive",
+    "stats": {"strength": 10, "agility": 10, "intelligence": 8, "leadership": 7}
+  },
+  {
+    "id": "char-003",
+    "full_name": "Armin Arlert",
+    "affiliation": "Scout Regiment",
+    "status": "Alive",
+    "stats": {"strength": 5, "agility": 6, "intelligence": 10, "leadership": 9}
+  },
+  {
+    "id": "char-004",
+    "full_name": "Levi Ackerman",
+    "affiliation": "Scout Regiment",
+    "status": "Alive",
+    "stats": {"strength": 10, "agility": 10, "intelligence": 9, "leadership": 9}
+  },
+  {
+    "id": "char-005",
+    "full_name": "Erwin Smith",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {"strength": 8, "agility": 7, "intelligence": 10, "leadership": 10}
+  },
+  {
+    "id": "char-006",
+    "full_name": "Hange Zoe",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {"strength": 7, "agility": 7, "intelligence": 10, "leadership": 9}
+  },
+  {
+    "id": "char-007",
+    "full_name": "Jean Kirstein",
+    "affiliation": "Scout Regiment",
+    "status": "Alive",
+    "stats": {"strength": 7, "agility": 7, "intelligence": 8, "leadership": 8}
+  },
+  {
+    "id": "char-008",
+    "full_name": "Sasha Blouse",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {"strength": 7, "agility": 8, "intelligence": 6, "leadership": 6}
+  },
+  {
+    "id": "char-009",
+    "full_name": "Connie Springer",
+    "affiliation": "Scout Regiment",
+    "status": "Alive",
+    "stats": {"strength": 7, "agility": 8, "intelligence": 6, "leadership": 6}
+  },
+  {
+    "id": "char-010",
+    "full_name": "Historia Reiss",
+    "affiliation": "Paradis Government",
+    "status": "Alive",
+    "stats": {"strength": 5, "agility": 6, "intelligence": 8, "leadership": 9}
+  },
+  {
+    "id": "char-011",
+    "full_name": "Reiner Braun",
+    "affiliation": "Marley Warrior Unit",
+    "status": "Alive",
+    "stats": {"strength": 9, "agility": 7, "intelligence": 7, "leadership": 7}
+  },
+  {
+    "id": "char-012",
+    "full_name": "Bertholdt Hoover",
+    "affiliation": "Marley Warrior Unit",
+    "status": "Deceased",
+    "stats": {"strength": 8, "agility": 6, "intelligence": 7, "leadership": 5}
+  },
+  {
+    "id": "char-013",
+    "full_name": "Annie Leonhart",
+    "affiliation": "Marley Warrior Unit",
+    "status": "Alive",
+    "stats": {"strength": 9, "agility": 9, "intelligence": 8, "leadership": 6}
+  },
+  {
+    "id": "char-014",
+    "full_name": "Zeke Yeager",
+    "affiliation": "Marley Warrior Unit",
+    "status": "Deceased",
+    "stats": {"strength": 8, "agility": 6, "intelligence": 10, "leadership": 8}
+  },
+  {
+    "id": "char-015",
+    "full_name": "Pieck Finger",
+    "affiliation": "Marley Warrior Unit",
+    "status": "Alive",
+    "stats": {"strength": 6, "agility": 7, "intelligence": 9, "leadership": 7}
+  },
+  {
+    "id": "char-016",
+    "full_name": "Porco Galliard",
+    "affiliation": "Marley Warrior Unit",
+    "status": "Deceased",
+    "stats": {"strength": 8, "agility": 9, "intelligence": 7, "leadership": 6}
+  },
+  {
+    "id": "char-017",
+    "full_name": "Ymir",
+    "affiliation": "Scout Regiment",
+    "status": "Deceased",
+    "stats": {"strength": 7, "agility": 8, "intelligence": 7, "leadership": 6}
+  },
+  {
+    "id": "char-018",
+    "full_name": "Floch Forster",
+    "affiliation": "Yeagerists",
+    "status": "Deceased",
+    "stats": {"strength": 6, "agility": 6, "intelligence": 6, "leadership": 7}
+  },
+  {
+    "id": "char-019",
+    "full_name": "Kenny Ackerman",
+    "affiliation": "Anti-Personnel Control Squad",
+    "status": "Deceased",
+    "stats": {"strength": 9, "agility": 9, "intelligence": 8, "leadership": 7}
+  },
+  {
+    "id": "char-020",
+    "full_name": "Grisha Yeager",
+    "affiliation": "Eldian Restorationists",
+    "status": "Deceased",
+    "stats": {"strength": 6, "agility": 5, "intelligence": 9, "leadership": 7}
+  },
+  {
+    "id": "char-021",
+    "full_name": "Falco Grice",
+    "affiliation": "Marley Warrior Candidate",
+    "status": "Alive",
+    "stats": {"strength": 6, "agility": 7, "intelligence": 7, "leadership": 7}
+  },
+  {
+    "id": "char-022",
+    "full_name": "Gabi Braun",
+    "affiliation": "Marley Warrior Candidate",
+    "status": "Alive",
+    "stats": {"strength": 7, "agility": 8, "intelligence": 7, "leadership": 6}
+  },
+  {
+    "id": "char-023",
+    "full_name": "Onyankopon",
+    "affiliation": "Anti-Marleyan Volunteers",
+    "status": "Alive",
+    "stats": {"strength": 5, "agility": 6, "intelligence": 8, "leadership": 6}
+  },
+  {
+    "id": "char-024",
+    "full_name": "Yelena",
+    "affiliation": "Anti-Marleyan Volunteers",
+    "status": "Deceased",
+    "stats": {"strength": 5, "agility": 5, "intelligence": 8, "leadership": 7}
+  }
+]

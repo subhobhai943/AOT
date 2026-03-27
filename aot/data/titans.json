@@ -1,0 +1,79 @@
+[
+  {
+    "id": "titan-001",
+    "name": "Founding Titan",
+    "height_m": 13,
+    "current_inheritor": "Eren Yeager",
+    "special_abilities": ["coordinate_control", "memory_manipulation", "titan_creation"]
+  },
+  {
+    "id": "titan-002",
+    "name": "Attack Titan",
+    "height_m": 15,
+    "current_inheritor": "Eren Yeager",
+    "special_abilities": ["future_memory_access", "high_combat_adaptability"]
+  },
+  {
+    "id": "titan-003",
+    "name": "Colossal Titan",
+    "height_m": 60,
+    "current_inheritor": "Armin Arlert",
+    "special_abilities": ["massive_size", "steam_emission", "nuclear_transformation_blast"]
+  },
+  {
+    "id": "titan-004",
+    "name": "Armored Titan",
+    "height_m": 15,
+    "current_inheritor": "Reiner Braun",
+    "special_abilities": ["hardened_armor", "siege_charge", "high_endurance"]
+  },
+  {
+    "id": "titan-005",
+    "name": "Female Titan",
+    "height_m": 14,
+    "current_inheritor": "Annie Leonhart",
+    "special_abilities": ["balanced_combat_profile", "scream_lure", "hardening"]
+  },
+  {
+    "id": "titan-006",
+    "name": "Beast Titan",
+    "height_m": 17,
+    "current_inheritor": "Zeke Yeager",
+    "special_abilities": ["long_range_throwing", "spinal_fluid_control", "enhanced_reach"]
+  },
+  {
+    "id": "titan-007",
+    "name": "Jaw Titan",
+    "height_m": 5,
+    "current_inheritor": "Porco Galliard",
+    "special_abilities": ["extreme_agility", "hardened_jaws", "hardened_claws"]
+  },
+  {
+    "id": "titan-008",
+    "name": "Cart Titan",
+    "height_m": 4,
+    "current_inheritor": "Pieck Finger",
+    "special_abilities": ["extended_stamina", "cargo_platform", "high_mobility_support"]
+  },
+  {
+    "id": "titan-009",
+    "name": "War Hammer Titan",
+    "height_m": 15,
+    "current_inheritor": "Lara Tybur",
+    "special_abilities": ["weapon_manifestation", "remote_control_body", "advanced_hardening"]
+  },
+  {
+    "id": "titan-010",
+    "name": "The Smiling Titan",
+    "height_m": 14,
+    "current_inheritor": "None (Pure Titan)",
+    "special_abilities": ["abnormal_behavior", "relentless_pursuit"]
+  },
+  {
+    "id": "titan-011",
+    "name": "Rod Reiss Titan",
+    "height_m": 120,
+    "current_inheritor": "None (Pure Titan)",
+    "special_abilities": ["extreme_size", "radiant_heat", "crawling_colossus_mass"]
+  }
+]
