@@ -4,14 +4,14 @@
     "name": "Founding Titan",
     "height_m": 13,
     "current_inheritor": "Eren Yeager",
-    "special_abilities": ["coordinate_control", "memory_manipulation", "titan_creation"]
+    "special_abilities": ["coordinate", "memory_manipulation", "titan_creation", "body_reconstruction"]
   },
   {
     "id": "titan-002",
     "name": "Attack Titan",
     "height_m": 15,
     "current_inheritor": "Eren Yeager",
-    "special_abilities": ["future_memory_access", "high_combat_adaptability"]
+    "special_abilities": ["future_memory_inheritance", "high_combat_adaptability"]
   },
   {
     "id": "titan-003",
@@ -39,14 +39,14 @@
     "name": "Beast Titan",
     "height_m": 17,
     "current_inheritor": "Zeke Yeager",
-    "special_abilities": ["long_range_throwing", "spinal_fluid_control", "enhanced_reach"]
+    "special_abilities": ["long_range_throwing", "spinal_fluid_control", "enhanced_reach", "animal_mimicry"]
   },
   {
     "id": "titan-007",
     "name": "Jaw Titan",
     "height_m": 5,
-    "current_inheritor": "Porco Galliard",
-    "special_abilities": ["extreme_agility", "hardened_jaws", "hardened_claws"]
+    "current_inheritor": "Falco Grice",
+    "special_abilities": ["extreme_agility", "hardened_jaws", "hardened_claws", "flight"]
   },
   {
     "id": "titan-008",
@@ -59,12 +59,12 @@
     "id": "titan-009",
     "name": "War Hammer Titan",
     "height_m": 15,
-    "current_inheritor": "Lara Tybur",
+    "current_inheritor": "Eren Yeager",
     "special_abilities": ["weapon_manifestation", "remote_control_body", "advanced_hardening"]
   },
   {
     "id": "titan-010",
-    "name": "The Smiling Titan",
+    "name": "Dina Fritz (Smiling Titan)",
     "height_m": 14,
     "current_inheritor": "None (Pure Titan)",
     "special_abilities": ["abnormal_behavior", "relentless_pursuit"]
