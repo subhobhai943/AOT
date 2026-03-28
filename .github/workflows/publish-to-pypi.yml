@@ -63,7 +63,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: [https://pypi.org/p/aot-toolkit](https://pypi.org/p/aot-toolkit)
+      url: https://pypi.org/p/aot-toolkit
     permissions:
       id-token: write
     steps:
