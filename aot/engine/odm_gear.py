@@ -15,10 +15,25 @@ class BrokenBladeError(RuntimeError):
 
 @dataclass
 class ODMGear:
-    """Simulate ODM gear resource usage and combat wear."""
+    """Simulate ODM gear resource usage and combat wear.
+
+    The model intentionally balances readability with game-ready behavior:
+    - Grapple gas consumption scales with distance and speed profile.
+    - Nape attacks reduce durability by armor resistance.
+    - Titans with hardening traits dramatically increase blade wear.
+    """
 
     gas_capacity: float = 100.0
     blade_durability: int = 100
+
+    BASE_WEAR: int = 8
+    MIN_WEAR: int = 4
+    ARMOR_WEAR_MULTIPLIER: int = 3
+    HARDENED_ARMOR_MULTIPLIER: float = 2.35
+
+    BASE_DAMAGE: int = 46
+    MIN_DAMAGE: int = 6
+    ARMOR_DAMAGE_REDUCTION: int = 3
 
     def __post_init__(self) -> None:
         if self.gas_capacity < 0:
@@ -63,22 +78,64 @@ class ODMGear:
             "status": f"Grapple successful at {mode} speed. Remaining gas: {self.gas_capacity}",
         }
 
-    def attack_nape(self, titan_armor_level: int) -> dict[str, int | str]:
-        """Strike a titan's nape, reducing blade durability by armor resistance."""
+    @staticmethod
+    def _has_hardened_armor(titan_abilities: list[str] | tuple[str, ...] | None) -> bool:
+        if not titan_abilities:
+            return False
+
+        normalized = {ability.strip().casefold() for ability in titan_abilities if isinstance(ability, str)}
+        hardened_signatures = {
+            "hardened_armor",
+            "advanced_hardening",
+            "hardening",
+            "hardened_jaws",
+            "hardened_claws",
+        }
+        return bool(normalized.intersection(hardened_signatures))
+
+    def attack_nape(
+        self,
+        titan_armor_level: int,
+        titan_abilities: list[str] | tuple[str, ...] | None = None,
+    ) -> dict[str, int | str | bool]:
+        """Strike a titan's nape, reducing blade durability by armor resistance.
+
+        Args:
+            titan_armor_level: Integer armor resistance (0 = none).
+            titan_abilities: Optional titan abilities to detect hardening traits.
+
+        Returns:
+            A result payload describing damage output and durability state.
+        """
         if titan_armor_level < 0:
             raise ValueError("titan_armor_level must be >= 0")
-        wear = max(self.MIN_WEAR, self.BASE_WEAR + titan_armor_level * self.ARMOR_WEAR_MULTIPLIER)
-        damage_dealt = max(self.MIN_DAMAGE, self.BASE_DAMAGE - titan_armor_level * self.ARMOR_DAMAGE_REDUCTION)
-        damage_dealt = max(1, 40 - titan_armor_level * 3)
+
+        hardened_armor = self._has_hardened_armor(titan_abilities)
+
+        base_wear = self.BASE_WEAR + titan_armor_level * self.ARMOR_WEAR_MULTIPLIER
+        wear = max(self.MIN_WEAR, base_wear)
+        if hardened_armor:
+            wear = int(round(wear * self.HARDENED_ARMOR_MULTIPLIER))
+
+        damage_dealt = self.BASE_DAMAGE - titan_armor_level * self.ARMOR_DAMAGE_REDUCTION
+        if hardened_armor:
+            damage_dealt -= 6
+        damage_dealt = max(self.MIN_DAMAGE, damage_dealt)
 
         remaining = self.blade_durability - wear
         if remaining <= 0:
             self.blade_durability = 0
-            raise BrokenBladeError("Blade shattered during nape strike.")
+            raise BrokenBladeError(
+                "Blade shattered during nape strike; hardened armor overwhelmed the edge."
+                if hardened_armor
+                else "Blade shattered during nape strike."
+            )
 
         self.blade_durability = remaining
         return {
             "damage_dealt": damage_dealt,
+            "durability_cost": wear,
             "remaining_durability": self.blade_durability,
+            "hardened_armor_detected": hardened_armor,
             "status": "Nape strike landed cleanly.",
         }
