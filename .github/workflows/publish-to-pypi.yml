@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: testpypi
-      url: [https://test.pypi.org/p/aot-toolkit](https://test.pypi.org/p/aot-toolkit)
+      url: https://test.pypi.org/p/aot-toolkit
     permissions:
       id-token: write
     steps:
