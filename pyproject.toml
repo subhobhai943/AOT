@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "aot"
+name = "aot-toolkit"
 version = "0.1.0"
 description = "A comprehensive Python library for the Attack on Titan universe. Features a complete offline data API, a physics engine for game development, and productivity-focused CLI utilities."
 readme = "README.md"
@@ -34,6 +34,12 @@ aot = "aot.cli.main:app"
 [tool.setuptools]
 packages = ["aot", "aot.cli", "aot.core", "aot.engine"]
 
+[tool.setuptools.package-data]
+"aot" = ["data/*.json"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
 [tool.setuptools.package-data]
 "aot" = ["data/*.json"]
 
