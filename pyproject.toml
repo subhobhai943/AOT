@@ -39,15 +39,4 @@ packages = ["aot", "aot.cli", "aot.core", "aot.engine"]
 
 [tool.pytest.ini_options]
 addopts = "-q"
-testpaths = ["tests"][tool.setuptools.package-data]
-"aot" = ["data/*.json"]
-
-[tool.pytest.ini_options]
-addopts = "-q"
-testpaths = ["tests"]
-[tool.setuptools.package-data]
-"aot" = ["data/*.json"]
-
-[tool.pytest.ini_options]
-addopts = "-q"
 testpaths = ["tests"]
